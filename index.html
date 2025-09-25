@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BCA Notes Sharing Website</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Login Form -->
+  <h2>Login</h2>
+  <form id="loginForm" class="upload-form">
+    <input type="email" id="loginEmail" placeholder="Enter Email" required>
+    <input type="password" id="loginPassword" placeholder="Enter Password" required>
+    <button type="submit">Login</button>
+  </form>
+  <p id="loginMsg"></p>
+
+  <!-- Notes Section -->
+  <div id="notesSection" style="display:none;">
+    
+    <!-- Warning -->
+    <div class="warning">
+      <p><strong>Warning:</strong> These notes are for personal study only. Sharing, forwarding, or publishing them without permission is strictly prohibited.</p>
+    </div>
+
+    <h2>Available BCA Notes</h2>
+
+    <ul class="note-list">
+      <li>
+        <span class="icon"><i class="fa fa-book"></i></span>
+        <span class="note-title">C Programming Notes</span>
+        <a href="https://drive.google.com/uc?export=download&id=1Jt2fHQGE00h2mhDtmvMKlRI9nl7h9IOo" target="_blank" class="download-btn">Download</a>
+      </li>
+      <li>
+        <span class="icon"><i class="fa fa-pen"></i></span>
+        <span class="note-title">Computer Fundamentals Notes</span>
+        <a href="#" target="_blank" class="download-btn">Download</a>
+      </li>
+      <li>
+        <span class="icon"><i class="fa fa-clipboard"></i></span>
+        <span class="note-title">HTML & CSS Notes</span>
+        <a href="#" target="_blank" class="download-btn">Download</a>
+      </li>
+      <li>
+        <span class="icon"><i class="fa fa-book"></i></span>
+        <span class="note-title">Database Management Notes</span>
+        <a href="#" target="_blank" class="download-btn">Download</a>
+      </li>
+      <li>
+        <span class="icon"><i class="fa fa-pen"></i></span>
+        <span class="note-title">Operating System Notes</span>
+        <a href="#" target="_blank" class="download-btn">Download</a>
+      </li>
+      <li>
+        <span class="icon"><i class="fa fa-user-shield"></i></span>
+        <span class="note-title">About Admin Notes</span>
+        <a href="https://drive.google.com/uc?export=download&id=1hnsDUqNiqBebiy70eHcKEJfa4gbb8q0t" target="_blank" class="download-btn">Download</a>
+      </li>
+    </ul>
+
+  </div>
+
+  <!-- Admin Section -->
+  <div id="adminSection" style="display:none;">
+    <h2>Admin Panel</h2>
+    <h3>Users List</h3>
+    <ul id="usersList"></ul>
+    <h3>Notes List</h3>
+    <ul id="notesAdminList"></ul>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="footer-section">
+
+    <!-- Quotes -->
+    <div class="footer-quotes">
+      <p>कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।<br>
+      मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥</p>
+      <p>सर्वस्यापि भवेदेतु</p>
+      <p>“Be yourself, everyone else is already taken.”</p>
+    </div>
+
+    <!-- Contact Info + Photo -->
+    <div class="footer-contact-photo">
+      <div class="contact-info">
+        <h3>Contact Me</h3>
+        <p><i class="fa fa-envelope"></i> Email: <a href="mailto:yogeshsharmaa4081@gmail.com">yogeshsharmaa4081@gmail.com</a></p>
+        <p><i class="fa-brands fa-instagram"></i> Instagram: <a href="https://www.instagram.com/the__yogiii__pandittt" target="_blank">@the__yogiii__pandittt</a></p>
+        <p><i class="fa fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/918449728336" target="_blank">+91 84497 28336</a></p>
+      </div><div>
+<h1> Admins: </h1> 
+<p> Yogii Panditt</p>
+<p> Sayuri Chavez</p>    </div> 
+ <div class="contact-photo">
+        <img src="yugg.jpeg" alt="yogii panditt" />
+      <img src="baeadmin.jpeg">f
+</div>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
